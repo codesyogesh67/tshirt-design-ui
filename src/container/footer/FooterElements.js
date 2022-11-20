@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
 import LockResetIcon from "@mui/icons-material/LockReset";
@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 `;
 export const UpperContainer = styled.div`
   display: flex;
@@ -46,22 +47,42 @@ export const IconContainer = styled.div`
   flex-direction: row;
   padding: 0.8rem;
 `;
+
 export const CheckCircle = styled(CheckCircleOutlineIcon)`
   width: 50px !important;
   height: 50px !important;
+
+  @media screen and (max-width: 550px) {
+    width: 30px !important;
+    height: 30px !important;
+  }
 `;
 export const SportsSoccer = styled(SportsSoccerIcon)`
   width: 50px !important;
   height: 50px !important;
+
+  @media screen and (max-width: 550px) {
+    width: 30px !important;
+    height: 30px !important;
+  }
 `;
 export const LockReset = styled(LockResetIcon)`
   width: 50px !important;
   height: 50px !important;
+
+  @media screen and (max-width: 550px) {
+    width: 30px !important;
+    height: 30px !important;
+  }
 `;
 
 export const Text = styled.div`
   margin-left: 10px;
   font-size: 1.5rem;
+
+  @media screen and (max-width: 550px) {
+    font-size: 1.2rem;
+  }
 `;
 export const LogoContainer = styled.div`
   margin: auto;
@@ -90,6 +111,10 @@ export const LogoDesign = styled.div`
     text-transform: uppercase;
     letter-spacing: 0.1rem;
   }
+
+  @media screen and (max-width: 550px) {
+    font-size: 1.2rem;
+  }
 `;
 export const Divider = styled.div`
   background: rgb(230, 230, 230);
@@ -109,23 +134,31 @@ export const LowerContainer = styled.div`
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   row-gap: 30px;
+  margin-left: 40px;
 `;
 
 export const Compartment = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
 `;
 export const Title = styled.h1`
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.01rem;
   font-size: 1.7rem;
+
+  @media screen and (max-width: 550px) {
+    font-size: 1.2rem;
+  }
 `;
 export const Links = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
+
+  @media screen and (max-width: 550px) {
+    font-size: 1rem;
+  }
 `;
 export const Link = styled.p`
   padding: 0.5rem 0;

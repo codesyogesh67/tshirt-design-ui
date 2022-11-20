@@ -59,6 +59,10 @@ export const SectionText = styled.p`
   @media screen and (max-width: 768px) {
     margin-bottom: 40px;
   }
+
+  @media screen and (max-width: 550px) {
+    font-size: 1.2rem;
+  }
 `;
 export const Button = styled.button`
   padding: 0.7rem 1.2rem;
