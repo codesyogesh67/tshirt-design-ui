@@ -2,78 +2,90 @@ import styled from "styled-components";
 import { Rectangle } from "../../images";
 
 export const Container = styled.div`
-  background-image: url(${Rectangle});
-  height: 100vh;
+  background-image: url(${Rectangle}); 
   display: flex;
+  align-items:center;
   flex-direction: column;
+  height:100vh;
+
+
+  
 `;
 
 export const SectionContainerStyle = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+flex:1;
+
+@media screen and (min-width:600px){
+  flex-direction:row;
+}
+
+
 `;
 
 export const SectionContainer = styled(SectionContainerStyle)`
-  padding-left: 20vw;
 
-  @media screen and (max-width: 1050px) {
-    padding-left: 10vw;
-  }
-  @media screen and (max-width: 850px) {
-    padding: 0;
-  }
+  border:2px solid blue;
+
+
+ 
 `;
 export const SectionContainer1 = styled(SectionContainerStyle)`
-  padding-left: 30vw;
 
-  margin-top: -5vh;
+  border:2px solid green;
+padding-bottom:2rem;
 
-  @media screen and (max-width: 1050px) {
-    padding-left: 20vw;
-  }
-  @media screen and (max-width: 850px) {
-    padding-left: 8vw;
-  }
 `;
 
 export const ImageContainerStyle = styled.div`
-  height: 60vh;
+  height:50vh;
+  border:2px solid red;
+
   img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit:contain;
   }
+
+  @media screen and (min-width:600px){
+    height:auto;
+  }
+
 `;
 
 export const ImageContainer = styled(ImageContainerStyle)`
   margin-top: -5vh;
+ 
 `;
 
 export const ImageContainer1 = styled(ImageContainerStyle)``;
 
 export const Section = styled.div`
-  width: 28vw;
+  // width: 28vw;
   padding: 0 2rem;
+
+  padding-top:3rem;
   margin-top: -8vh;
 
-  @media screen and (max-width: 850px) {
-    width: 50vw;
-  }
+  
 `;
 export const SectionTitle = styled.h1`
   color: #fff;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 30px;
   font-family: var(--font-title);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
 `;
 export const SectionText = styled.p`
   color: #d4d2d2;
-  font-size: 0.8rem;
+  font-size: 15px;
+  letter-spacing:0.5px;
   margin-bottom: 20px;
-  max-height: 20vh;
-  overflow: hidden;
+  font-weight:500;
+  line-height:1rem;
 `;
 export const Button = styled.button`
   background: var(--color-button2);

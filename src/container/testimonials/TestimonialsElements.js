@@ -5,6 +5,7 @@ export const TestimonialContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 3rem 6rem;
+  padding-top:0;
   padding-right: 4rem;
 
   @media only screen and (max-width: 768px) {
@@ -62,12 +63,13 @@ export const Box = styled.div`
 `;
 export const Text = styled.p`
   border: 1px solid #d4d2d2;
-  box-shadow: 12px 12px rgba(201, 196, 195, 0.5);
+  box-shadow: 7px 7px rgba(201, 196, 195, 0.5);
   min-width: 300px;
   width: 50%;
-  padding: 3rem 4rem;
+  padding: 2.2rem 1.2rem;
+  line-height:1.2rem;
   text-align: center;
-  color: var(--color-text);
+  font-size:15px;
   background: white;
   border-radius: 10px;
 
