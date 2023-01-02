@@ -42,9 +42,15 @@ export const Features = styled.div`
   }
 `;
 export const Link = styled.p`
-  font-size: 18px;
+  font-size: 13px;
   line-height: 21px;
-  font-family: Roboto;
+ text-transform:uppercase;
+  cursor:pointer;
+font-weight:600;
+
+  &:hover{
+    color:var(--color-button);
+  }
 `;
 
 export const Links = styled.div`
@@ -52,6 +58,14 @@ export const Links = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+
+
+  p{
+    color:var(--color-button);
+
+    
+  }
 
   @media screen and (max-width: 992px) {
     flex: 0.4;
@@ -68,6 +82,7 @@ export const Button = styled.button`
   font-height: 21px;
   border-radius: 5px;
   border: none;
+  
 `;
 
 export const HamburgerIcon = styled(MenuIcon)`

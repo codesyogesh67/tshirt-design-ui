@@ -23,7 +23,7 @@ function Header() {
       </Features>
       <Links>
         <Link>Log in</Link>
-        <Button>Get Started</Button>
+        <Link>Get Started</Link>
         <SearchIcon />
       </Links>
       <HamburgerIcon />

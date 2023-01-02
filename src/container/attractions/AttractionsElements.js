@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 0rem 6rem 3rem 5rem;
+  margin-bottom:2rem;
+
 
   @media only screen and (max-width: 768px) {
     padding: 2rem 4rem;
@@ -72,7 +74,8 @@ export const ImageContainer3 = styled.div`
   }
 `;
 export const SectionTitle = styled.h1`
-  font-size: 22px;
+  font-size: 20px;
+  font-weight:600;
   line-height: 30px;
   padding: 0.5rem 0;
   margin-top: -30px;
@@ -86,4 +89,10 @@ export const SectionLink = styled.p`
   color: var(--color-link);
   pointer: cursor;
   font-size: 15px;
+  cursor:pointer;
+
+  &:hover{
+    text-decoration:underline;
+  
+  }
 `;

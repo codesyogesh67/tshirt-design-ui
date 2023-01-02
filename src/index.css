@@ -3,7 +3,7 @@
 
 :root {
   --font-family: "Roboto", sans-serif;
-  --font-title: "Manrope", sans-serif;
+  /* --font-title: "Manrope", sans-serif; */
 
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
@@ -17,9 +17,10 @@
   --color-title: #272d4e;
   --color-text: #94a2b3;
   --color-footer: #5f37ef;
-  --color-link: #299ef3;
+  /* --color-link: #299ef3; */
+  --color-link: #7854f7;
 
   /* sizes */
 
-  --font-size-title: 42px;
+  --font-size-title: 35px;
 }

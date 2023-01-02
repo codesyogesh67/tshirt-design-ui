@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const BannerContainer = styled.div`
-  padding: 4rem 2rem;
+  padding: 4rem 0;
+  padding-top:5rem;
   display: flex;
   flex-direction: row;
 
@@ -17,7 +18,7 @@ export const BannerContent = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: start;
   margin-right: 3rem;
 
@@ -33,9 +34,10 @@ export const BannerTitle = styled.h1`
   color: var(--color-title);
   font-family: var(--font-title);
   font-weight: 800;
-  font-size: 58px;
-  line-height: 75px;
+  font-size: 45px;
+  line-height: 55px;
   line-spacing: -0.04em;
+
 
   @media screen and (max-width: 992px) {
     font-size: 48px;
@@ -47,7 +49,7 @@ export const BannerText = styled.p`
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: var(--color-text);
+  color: black;
   margin-top: 1.5rem;
 `;
 export const BannerButton = styled.button`
@@ -64,7 +66,7 @@ export const BannerButton = styled.button`
   margin: 2rem 0 1rem;
   border-radius: 60px;
   border: none;
-  max-width: 300px;
+  max-width: 230px;
 
   @media screen and (max-width: 1050px) {
     margin-bottom: 3rem;
