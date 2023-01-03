@@ -21,34 +21,38 @@ function Features() {
           <img src={Develop} alt="Develop your skills" />
         </ImageContainer>
         <Section>
-          <SectionTitle>
-            Develop <br />
+          <div>
+            <SectionTitle>
+              Develop <br />
             Without Limits
           </SectionTitle>
-          <SectionText>
-            WooCommerce is developer friendly, too. Built with a REST API,
-            WooCommerce is scalable and can integrate with virtually any
-            service. Design a complex store from scratch, extend a store for a
-            client, or simply add a single product to a WordPress site—your
-            store, your way.
+            <SectionText>
+              WooCommerce is developer friendly, too. Built with a REST API,
+              WooCommerce is scalable and can integrate with virtually any
+              service. Design a complex store from scratch, extend a store for a
+              client, or simply add a single product to a WordPress site—your
+              store, your way.
           </SectionText>
-          <Button>Read the Documentation</Button>
+            <Button>Read the Documentation</Button>
+          </div>
         </Section>
       </SectionContainer>
 
       <SectionContainer1>
         <Section>
-          <SectionTitle>
-            Know your<br></br> Global Community
+          <div>
+            <SectionTitle>
+              Know your<br></br> Global Community
           </SectionTitle>
-          <SectionText>
-            WooCommerce is developer friendly, too. Built with a REST API,
-            WooCommerce is scalable and can integrate with virtually any
-            service. Design a complex store from scratch, extend a store for a
-            client, or simply add a single product to a WordPress site—your
-            store, your way.
+            <SectionText>
+              WooCommerce is developer friendly, too. Built with a REST API,
+              WooCommerce is scalable and can integrate with virtually any
+              service. Design a complex store from scratch, extend a store for a
+              client, or simply add a single product to a WordPress site—your
+              store, your way.
           </SectionText>
-          <Button>Read the Documentation</Button>
+            <Button>Read the Documentation</Button>
+          </div>
         </Section>
         <ImageContainer1>
           <img src={GlobalCommunity} alt="Global Community" />
